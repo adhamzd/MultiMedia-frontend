@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+.App {
+  background-image: url(./images/home-wallpaper.jpg);
+  background-size: 100vw 100%;
+  display: flex;
+  width: 100%;
+  color: white;
+  min-height: 100vh;
+}
+
+.App.about {
+  background-image: url(./images/Wallpaper-About.jpg);
+}
+
+.App.services {
+  background-image: url(./images/Wallpaper-Services.jpg);
+}
+
+.App.team {
+  background-image: url(./images/Wallpaper-Team.jpg);
+  background-size: 100vw 100%;
+  display: flex;
+  width: 100%;
+}
+
+.App.portfolio {
+  background-image: url(./images/Portfolio-Wallpaper.jpg);
+}
+
+.App.contact {
+  background-image: url(./images/ContactUs-Wallpaper.jpg);
+}
+
+.App.login,
+.App.dashboard {
+  background-color: #3B3B3B;
+  background-image: none;
+}
+
+.menu {
+  background-color: #3A3A3A;
+  width: 220px;
+  min-height: 100vh;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu.login,
+.menu.dashboard {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+  margin-right: 35px;
+}
+
+li {
+
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  /* margin-top: 100%; */
+  color: #9A9A9A;
+  padding: 5%;
+}
+
+.phone-footer {
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .menu ul {
+    /* font-size: 16px; */
+    display: flex;
+    display: none;
+    background-color: #E3E2E2;
+    /* margin-top: -15%; */
+    /* opacity: 0.9; */
+  }
+
+  .menu ul li {
+    color: #2a2828;
+  }
+
+  a:hover {
+    border-bottom: 2px solid #2a2828;
+  }
+
+  .menu img {
+    z-index: 100;
+    width: 120px;
+    position: fixed;
+    /* top: 2%; */
+    right: 0;
+  }
+
+  .App {
+    background-color: black;
+    background-size: 100% 100%;
+    background-image: none;
+    height: auto;
+  }
+
+  .menu {
+    width: 0;
+    height: 100vh;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .phone-footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    /* margin-top: 20px; */
+  }
+}

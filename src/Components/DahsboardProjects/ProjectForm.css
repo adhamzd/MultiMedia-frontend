@@ -1,0 +1,67 @@
+.projectForm {
+    flex-direction: column;
+    width:100%;
+    border-left: 1px solid #131313;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+.projectTitle, .projectDescription, .project-Service {
+    font-size: 1.2rem;
+    width: 50%;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: #3B3B3B;
+    border: 1px solid #111111;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;    
+}
+.FormControl {
+    font-size: 1.2rem;
+    width: 50%;
+    padding: 1.5%;
+    border-radius: 15px;
+    border: 1px solid #111111;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    height: 20px;
+}
+.projectImage {
+    font-size: 1.2rem;
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid #111111;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.submitProject {
+    font-size: 1.5rem;
+    display: block;
+    padding: 0.5%;
+    width: 20%;
+    border-radius: 10px;
+}
+
+
+.projectForm-label {
+    text-align: right;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 800px) {
+    .projectForm {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .projectTitle, .projectDescription, .project-Service,.projectImage,.projectForm-label,.FormControl {
+        width: 80%;
+    }
+
+}

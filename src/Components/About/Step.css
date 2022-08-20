@@ -1,0 +1,38 @@
+.step {
+    background-color: #3B3B3B;
+    display: flex;
+    margin: 1.5%;
+    width: 20%;
+    min-width: 200px;
+    height: 230px;
+    align-items: center;
+    border: 1px solid #838383;
+    border-radius: 23px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.step-number, .step-title {
+    align-self: flex-start;
+    padding-left: 17px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.step-title {
+    margin-top: 0px;
+}
+
+.step-number {
+    font-size: 1.5rem;
+}
+
+
+.step-description {
+    margin-left: -20px;
+    width: 80%;
+    padding-top: 50px;
+} 

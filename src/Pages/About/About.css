@@ -1,0 +1,128 @@
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.mission-vision-container {
+    flex-direction: column;
+    width: 30%;
+    font-size: 1.3rem;
+    font-family: 'Questrial';
+    padding-left: 2%;
+    margin-top: 8%;
+    text-align: justify;
+}
+
+.main-container {
+    width:100%;
+}
+
+.services-container {
+    flex-direction: column;
+    width: 46%;
+    padding-left: 8%;
+    margin-top: 8%;
+}
+.text-container, .services-list{
+    font-size: 1.3rem;
+    font-family: 'Questrial';
+}
+
+.text-container {
+    text-align: justify;
+}
+
+.steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.services-list {
+    color: white;
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 10%;
+    text-transform: uppercase;
+  }
+
+  .services-list li{
+    margin: 0;
+  }
+
+
+  @media screen and (max-width: 800px) {
+      .main-container {
+          flex-basis: 100%;
+          background-color: #1B1B1B;
+      }
+   .about-container {
+       margin-top: 130px;
+       width: 100%;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       align-items: center;
+       overflow: auto; 
+       background-color: black;
+   }
+   .about-container::-webkit-scrollbar {
+    width: 7px;
+  }
+  .about-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .about-container::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  .about-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+   .mission-vision-container {
+       width: 90%;
+       padding-left: 0;
+   }
+
+   .services-container {
+       padding-left: 0;
+       width: 90%;
+   }
+
+   .steps-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+   }
+
+   .step {
+       width: 90%;
+   }
+
+   .services-list {
+       width: 90%;
+   }
+
+   .phone-footer {
+       margin-top: 5%;
+   }
+  }
+  @media screen and (max-width: 420px) {
+    p .description, .text-container, li {
+        font-size: 1rem;
+    }  
+
+    .step {
+        width: 80%;
+    }
+
+  }
+
+  @media screen and (max-width: 335px) {
+    .about-container {
+        margin-top: 150px;}
+
+  }

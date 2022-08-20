@@ -1,0 +1,125 @@
+.dashboard-projectsContainer {
+    margin: 0;
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.current-projects1 ,.current-projects2 ,.current-projects3 {
+    border-left: 1px solid black;
+    width: 100%;
+}
+
+.dashboard-projectsContainer h2 {
+    flex-basis: 15%;
+    font-size: 2.2rem;
+    margin-left: 1%;
+    font-weight: lighter;
+    align-self: flex-start;
+    min-width: 220px;
+}
+
+.project-dashboard-main {
+    width: 100%;
+}
+
+.single-project {
+    padding: 0 5%;
+}
+ .dashProjectsContainer {
+    display: flex;
+    /* padding-right: 8px; */
+    border-left: 1px solid #131313;
+ }
+
+ .current-projects2 , .current-projects3 {
+     display: none;
+ }
+
+ .single-project {
+     padding-left: 80px;
+     padding: 0 6.5% 2.5% ;
+ }
+
+ @media screen and (max-width: 1000px) {
+    .current-projects1 , .current-projects3 {
+        display: none;
+    }
+   
+    .current-projects2 {
+        display: block;
+    }
+ }
+
+ @media screen and (max-width: 940px) {
+
+    .dashboard-projectsContainer h2 {
+        margin: auto;
+    }
+    .current-projects3 , .current-projects2 {
+        display: none;
+    }
+   
+    .current-projects1 {
+        display: block;
+    }
+    .dashboard-projectsContainer {
+        flex-direction: column;
+            }
+ }
+
+ @media screen and (max-width: 800px) {
+     .dashboard-projectsContainer {
+         margin-top: 200px;
+     }
+ }
+
+
+ @media screen and (max-width: 600px) {
+     .add-project-form {
+         flex-direction: column;
+         align-items: center;
+         padding-bottom: 20px;
+
+     }
+
+     .dashProjectsContainer {
+         border-left: none;
+         flex-direction: column;
+         margin-left: -10px;
+     }
+
+     .dashProjects-title {
+         width: 100%;
+         padding-left: 100px;
+         font-size: 2rem;
+     }
+
+     .dashProjects {
+         flex-direction: column;
+     }
+     .current-projects1, .current-projects3 {
+         display: none;
+     }
+
+     .current-projects2 {
+         display: block;
+         width: 100%;
+         
+     }
+     
+    }
+
+    @media screen and (max-width: 350px) {
+        .current-projects1, .current-projects2 {
+            display: none;
+        }
+   
+        .current-projects3 {
+            display: block;
+            width: 100%;
+            
+        }
+    }
+
+

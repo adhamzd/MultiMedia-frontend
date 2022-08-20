@@ -1,0 +1,40 @@
+.container {
+    flex-basis: 88%;
+}
+
+.servicesContainer {
+    width: 88%;
+    margin: auto;
+    /* margin-top:50px; */
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        flex-basis: 100%;
+    }
+    .servicesContainer {
+        /* height: 70vh; */
+        overflow: auto; 
+        margin-top: 200px;
+        /* margin-top:20px; */
+    } 
+    .servicesContainer::-webkit-scrollbar {
+        width: 7px;
+      }
+      .servicesContainer::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      .servicesContainer::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      .servicesContainer::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+}
+
+

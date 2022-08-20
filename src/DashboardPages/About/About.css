@@ -1,0 +1,73 @@
+.AboutDash {
+    display: flex;
+    width: 100%;
+}
+
+.about-dashboard-label {
+    font-size: 2rem;
+    width: 70%;
+    display: flex;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+
+.about-dashboard-label h2{
+    font-size: 2rem;
+    width: 10rem;
+    font-weight: normal;
+}
+
+.about-dashboard-textarea {
+    font-size: 2rem;
+    width: 100%;
+    height: 10rem;
+    background-color: #EBEBEB;
+    border-radius: 15px;
+    padding: 1%;
+    resize: none;
+}
+
+.about-dashboard-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-dashboard-button {
+    font-size: 1.5rem;
+    display: block;
+    padding: 0.5%;
+    width: 20%;
+    margin: 50px 170px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-dashboard-label {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-dashboard-textarea {
+        height: 15rem;
+    }
+
+    .about-dashboard-button {
+        margin: 50px 12px;
+        padding: 10px;
+        width: 30%;
+    }
+
+    .about-dashboard-label {
+        flex-direction: column;
+    } 
+}
+
+
+@media screen and (max-width: 800px) {
+    .about-dashboard-label:first-of-type {
+        margin-top: 150px;
+    }    
+}

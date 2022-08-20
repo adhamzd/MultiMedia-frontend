@@ -1,0 +1,36 @@
+.outer-container {
+    padding: 0 5.5%;
+}
+
+.dashboard-service {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 2%;
+    height: 150px;
+}
+
+.dashboard-service h3 {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 5%;
+}
+
+.dashboard-service img {
+    margin: auto;
+}
+
+.service-dashboard-main {
+    width: 100%;
+}
+
+.service-edit-icon, .service-delete-icon  {
+    flex-basis: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.service-delete-icon {
+    color: red;
+}

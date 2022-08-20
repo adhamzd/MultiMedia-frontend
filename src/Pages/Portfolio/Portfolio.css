@@ -1,0 +1,57 @@
+.projects1 ,.projects2,.projects3{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.projects2,.projects3 {
+  display: none;
+}
+
+.project-outer-container {
+    padding: 0 3%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .projects1{
+      display: none;
+    }
+    .projects2 {
+      display: block;
+    }
+
+    .project-outer-container {
+      padding: 0 8%;
+      height: 600px;
+  }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .projects1,.projects2{
+      display: none;
+    }
+    .projects3 {
+      display: block;
+      margin: auto;
+      margin-top: 150px;
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      justify-content: space-evenly;
+    }
+
+    .project-outer-container {
+      padding: 0 11%;
+      height: 600px;
+  }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .project-outer-container {
+      height: 400px;
+  }
+  }

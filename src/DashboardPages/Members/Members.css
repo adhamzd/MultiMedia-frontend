@@ -1,0 +1,138 @@
+.dashMember-background-container {
+    background-color: #3B3B3B;
+    width: 100%;
+    display: flex;
+}
+
+.current-members-container {
+    /* height: 35vh; */
+    width: 100%;
+    margin-top: 5rem;
+    /* margin-left: 3rem; */
+    display: flex;
+}
+
+.carousal-container1, .carousal-container2, .carousal-container3 {
+    height: 90%;
+    width: 100%;
+    border-left: 1px solid black;
+}
+
+.carousal-container2, .carousal-container3 {
+    display: none;
+}
+
+.current-p {
+    width: 300px;
+    height: 100%;
+    color: #ffff;
+    font-size: 2.2rem;
+    text-align: center;
+    /* padding-top: 7rem; */
+    align-self: flex-start;
+    margin-left: -2%;
+
+}
+
+
+.add-p {
+    width: 300px;
+    height: 20%;
+    color: #ffff;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 3rem;
+    align-self: flex-start;
+    margin-left: -2%;
+}
+
+.right-side-container {
+    width: 100%;
+}
+
+
+
+.members-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.members-form-container {
+    width: 100%;
+    /* height: 43vh; */
+    /* margin-left: 1rem; */
+    display: flex;
+    margin-top: 2.5%;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .carousal-container1, .carousal-container3 {
+        display: none;
+    }
+    .carousal-container2 {
+        display: block;
+    }
+
+    .current-members-container, .members-form-container {
+        flex-direction: column;
+    }
+    .current-p, .add-p {
+        width: 100%;
+    }
+
+    .current-p {
+        margin-bottom: 5%;
+        margin-top: -5%;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    .current-members-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .add-p {
+        width: 100%;
+        padding-top: 6rem;
+        height: 2rem;
+        padding-bottom: 40px;
+    }
+
+    .current-p {
+        /* width: fit-content; */
+        width: 100%;
+        margin-top: 55px;
+        height: 50px;
+        padding-bottom: 40px;
+    }
+
+    .members-form-container {
+        display: block;
+        height: auto;
+
+
+    }
+
+    .dashMember-background-container {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .carousal-container1, .carousal-container2 {
+        display: none;
+    }
+
+    .carousal-container3 {
+        display: block;
+    }
+}

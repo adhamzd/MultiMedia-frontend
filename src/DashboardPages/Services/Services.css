@@ -1,0 +1,142 @@
+.dashboard-servicesContainer {
+    margin: 0;
+    display: flex;
+    margin-top: 80px;
+    width: 100%;    
+}
+
+.current-services-1, .current-services-2, .current-services-3 {
+    border-left: 1px solid black;
+    width: 100%;
+}
+
+.dashboard-servicesContainer h2 {
+    flex-basis: 15%;
+    font-size: 2.2rem;
+    margin-left: 1%;
+    font-weight: lighter;
+    align-self: flex-start;
+    min-width: 220px;
+}
+
+.service-dashboard-main {
+    width: 100%;
+}
+
+.current-services-2, .current-services-3 {
+    display: none;
+}
+
+@media screen  and (max-width: 1000px) {
+    .current-services-1, .current-services-3 {
+        display: none;
+    }
+
+    .current-services-2 {
+        display: block;
+    }
+
+    .dashboard-servicesContainer h2 {
+        margin: auto;
+    }
+
+    .about-dashboard-form input, .about-dashboard-form textarea{
+        width: 80%;
+    }
+
+    .dashboard-servicesContainer{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+
+    .dashboard-servicesContainer h2 {
+        margin: auto;
+    }
+    .current-services-3 , .current-services-1 {
+        display: none;
+    }
+   
+    .current-services-2 {
+        display: block;
+    }
+    .dashboard-servicesContainer {
+        flex-direction: column;
+        width: auto;
+        
+    }
+    .dashboard-service-label {
+        width: 80%;
+    }
+    .about-dashboard-form input, .about-dashboard-form textarea{
+        width: 100%;
+    }
+ }
+
+@media screen  and (max-width: 800px) {
+    .current-services-1, .current-services-3 {
+        display: none;
+    }
+
+    .current-services-2 {
+        display: block;
+    }
+
+    .dashboard-servicesContainer {
+        margin-top: 200px;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .dashboard-servicesContainer h2 {
+        font-size: 2.2rem;
+        /* padding-left: 150px; */
+        padding-bottom: 30px;
+        font-weight: lighter;
+    }
+
+    .dashboard-service {
+        height: 200px;
+        /* width: fit-content; */
+    }
+
+    .dashboard-service h3 {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .dashboard-servicesContainer h2 {
+        min-width: 0;
+        margin: auto;
+    }
+}
+
+@media screen  and (max-width: 600px) {
+    .current-services-1, .current-services-2 {
+        display: none;
+    }
+
+    .dashboard-servicesContainer {
+        display: block;
+    }
+
+    .current-services-3 {
+        display: block;
+    }
+
+    .dashboard-servicesContainer h2 {
+        padding-left: 0;
+        text-align: center;
+    } 
+
+
+
+}
+
+
+
+

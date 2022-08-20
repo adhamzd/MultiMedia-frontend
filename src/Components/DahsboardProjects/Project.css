@@ -1,0 +1,44 @@
+
+.projectCard-dash {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8D8D8;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    border-radius: 5%;
+    height: 200px;
+    max-width: 350px;
+  } 
+
+  .projectTitle-dash {
+      align-self: end;
+      flex-basis: 100%;
+      text-align: center;
+      font-size: 1.5rem;
+      padding-bottom: 5%;
+      font-weight: lighter;
+      color: #3b3b3b;
+
+  } 
+  
+.project-edit-icon, .project-delete-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.project-delete-icon {
+  margin-left: 10px;
+  color: red;
+}
+
+#edit-service-title {
+  color: #606060;
+}
+
+@media screen and (max-width:900px) {
+.projectTitle-dash {
+  font-size: 1.2rem;
+}
+}

@@ -1,0 +1,38 @@
+.service h3 {
+    flex-basis: 60%;
+    text-align: center;
+    margin: 0;
+}
+
+.serviceIcon {
+    height: 40px;
+}
+
+.serviceDesc {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service {
+    background-color: #3B3B3B;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5%;
+    flex-basis: 23%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #838383;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    min-width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .service {
+        flex-basis: 80%;
+        margin-bottom: 30px;
+    }
+}

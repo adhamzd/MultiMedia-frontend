@@ -1,0 +1,80 @@
+.adding-members-form {
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 1px solid black;
+    margin-bottom: 12px;
+}
+
+.label.addMember {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.label.addMember span {
+    margin-top: -2%;
+}
+
+.addMember input {
+    font-size: 1.2rem;
+    width: 50%;
+    padding:12px;
+    border-radius: 15px;
+    background-color: #3B3B3B;
+    border: 1px solid #111111;
+    color: white;
+    margin-top: 1%;
+    margin-left: -0.8%;
+}
+
+#profileImg {
+    font-size: 1.2rem;
+    width: 50%;
+    padding: 8px 12px 12px 12px;
+    border-radius: 15px;
+    background-color: #3B3B3B;
+    border: 1px solid #111111;
+    color: rgba(202, 197, 197, 0.808);
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+#members-form-button {
+    font-size: 1.5rem;
+    display: block;
+    padding: 0.5%;
+    width: 20%;
+    margin-top: -2%;
+    border-radius: 10px;
+}
+
+
+/* @media screen and (max-width: 1000px) {
+    .addMember input {
+        width: 70%;
+    }
+    #profileImg {
+        width: 70%;
+    }   
+} */
+
+@media screen and (max-width:800px) {
+    
+.adding-members-form{
+    padding-left: 20px;
+}
+.addMember input {
+    width: 80%;
+}
+#profileImg {
+    width: 80%;
+}
+
+}

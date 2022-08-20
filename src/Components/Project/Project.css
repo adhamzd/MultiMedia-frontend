@@ -1,0 +1,67 @@
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-color: #3B3B3B;
+  border-radius: 5%;
+  transition: border-width 0.6s linear;
+  cursor: pointer;
+  max-width: 500px;
+}
+
+.projectCard:hover {
+  border: solid 4px #838383;
+}
+
+.projectName {
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  width: auto;
+  font-weight: 300;
+  padding-bottom: 2%;
+} 
+
+.projectService {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 12px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectName {
+    font-size: 1.5rem;
+    }
+  
+    .projectService {
+      font-size: 1.2rem;
+  
+    }
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+  .projectCard {
+    background-size: 100% 75%;
+  }
+
+  .projectName {
+  /* margin-bottom: 50px; */
+  font-size: 1.5rem;
+  }
+
+  .projectService {
+    font-size: 1.2rem;
+
+  }
+
+}
+
